@@ -26,6 +26,8 @@ import org.openqa.selenium.io.FileHandler;
 
 import pomClasses.AccountSuccessPage;
 import pomClasses.HomePage;
+import pomClasses.LoginPage;
+import pomClasses.MyAccountPage;
 import pomClasses.RegisterAccountPage;
 import ru.yandex.qatools.ashot.AShot;
 import ru.yandex.qatools.ashot.Screenshot;
@@ -37,6 +39,8 @@ public class BaseTest {
 	public HomePage homePage;
 	public AccountSuccessPage accountSuccessPage;
 	public RegisterAccountPage registerAccountPage;
+	public LoginPage loginPage;
+	public MyAccountPage myAccountPage;
 	public Logger logger;
 	
 	public WebDriver setup(String browser)

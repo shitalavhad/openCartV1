@@ -16,7 +16,15 @@ public class HomePage extends PageBase {
 	@FindBy( xpath=" //a[normalize-space()='Register']")
 	private WebElement registerLink;
 	
+	@FindBy(xpath="//a[normalize-space()='Login']")
+	private WebElement loginLink;
 	
+	
+	public LoginPage clickOnLoginLink()
+	{
+		loginLink.click();
+		return new LoginPage(driver);
+	}
 	public RegisterAccountPage clickOnRegisterLink()
 	{
 		registerLink.click();
