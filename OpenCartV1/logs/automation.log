@@ -1,0 +1,3 @@
+06:14:55.551 [main] INFO  testClasses.RegisterAccountTest - Click on MyAccountLink
+06:14:56.707 [main] INFO  testClasses.RegisterAccountTest - Clcik on RegisterLink
+06:14:56.716 [main] INFO  testClasses.RegisterAccountTest - Enter User Credentials

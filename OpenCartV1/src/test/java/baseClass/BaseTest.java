@@ -1,5 +1,9 @@
 package baseClass;
 import java.awt.AWTException;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import java.awt.Dimension;
 import java.awt.Rectangle;
 import java.awt.Robot;
@@ -33,9 +37,12 @@ public class BaseTest {
 	public HomePage homePage;
 	public AccountSuccessPage accountSuccessPage;
 	public RegisterAccountPage registerAccountPage;
+	public Logger logger;
 	
 	public WebDriver setup(String browser)
 	{
+		logger=LogManager.getLogger(this.getClass());//log4j
+		
 		System.setProperty("webdriver.chrome.driver", "H:\\Chrome\\chromedriver-win64\\chromedriver.exe");
 		driver=new ChromeDriver();
 		driver.manage().window().maximize();

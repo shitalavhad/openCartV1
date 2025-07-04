@@ -1,0 +1,56 @@
+06:13:43.532 [main] INFO  testClasses.RegisterAccountTest - Click on Continue Button
+06:13:43.790 [main] INFO  testClasses.RegisterAccountTest - Verify AccountSuccessBreadCrumb Displayed or not
+06:13:47.522 [main] INFO  testClasses.RegisterAccountTest - Click on MyAccountLink
+06:13:48.171 [main] INFO  testClasses.RegisterAccountTest - Clcik on RegisterLink
+06:13:48.176 [main] INFO  testClasses.RegisterAccountTest - Enter User Credentials
+06:13:49.372 [main] INFO  testClasses.RegisterAccountTest - Click on Privacy Policy Button
+06:13:50.319 [main] INFO  testClasses.RegisterAccountTest - Click on Continue Button
+06:13:50.390 [main] INFO  testClasses.RegisterAccountTest - Verify AccountSuccessBreadCrumb Displayed or not
+06:13:54.111 [main] INFO  testClasses.RegisterAccountTest - Click on MyAccountLink
+06:13:54.755 [main] INFO  testClasses.RegisterAccountTest - Clcik on RegisterLink
+06:13:54.763 [main] INFO  testClasses.RegisterAccountTest - Enter User Credentials
+06:13:55.960 [main] INFO  testClasses.RegisterAccountTest - Click on Privacy Policy Button
+06:13:57.109 [main] INFO  testClasses.RegisterAccountTest - Click on Continue Button
+06:13:57.226 [main] INFO  testClasses.RegisterAccountTest - Verify AccountSuccessBreadCrumb Displayed or not
+06:14:01.589 [main] INFO  testClasses.RegisterAccountTest - Click on MyAccountLink
+06:14:02.670 [main] INFO  testClasses.RegisterAccountTest - Clcik on RegisterLink
+06:14:02.674 [main] INFO  testClasses.RegisterAccountTest - Enter User Credentials
+06:14:03.920 [main] INFO  testClasses.RegisterAccountTest - Click on Privacy Policy Button
+06:14:05.033 [main] INFO  testClasses.RegisterAccountTest - Click on Continue Button
+06:14:05.123 [main] INFO  testClasses.RegisterAccountTest - Verify AccountSuccessBreadCrumb Displayed or not
+06:14:08.987 [main] INFO  testClasses.RegisterAccountTest - Click on MyAccountLink
+06:14:09.663 [main] INFO  testClasses.RegisterAccountTest - Clcik on RegisterLink
+06:14:09.673 [main] INFO  testClasses.RegisterAccountTest - Enter User Credentials
+06:14:10.859 [main] INFO  testClasses.RegisterAccountTest - Click on Privacy Policy Button
+06:14:13.723 [main] INFO  testClasses.RegisterAccountTest - Click on Continue Button
+06:14:13.850 [main] INFO  testClasses.RegisterAccountTest - Verify AccountSuccessBreadCrumb Displayed or not
+06:14:17.527 [main] INFO  testClasses.RegisterAccountTest - Click on MyAccountLink
+06:14:18.147 [main] INFO  testClasses.RegisterAccountTest - Clcik on RegisterLink
+06:14:18.160 [main] INFO  testClasses.RegisterAccountTest - Enter User Credentials
+06:14:19.613 [main] INFO  testClasses.RegisterAccountTest - Click on Privacy Policy Button
+06:14:20.857 [main] INFO  testClasses.RegisterAccountTest - Click on Continue Button
+06:14:20.937 [main] INFO  testClasses.RegisterAccountTest - Verify AccountSuccessBreadCrumb Displayed or not
+06:14:25.650 [main] INFO  testClasses.RegisterAccountTest - Click on MyAccountLink
+06:14:26.856 [main] INFO  testClasses.RegisterAccountTest - Clcik on RegisterLink
+06:14:26.862 [main] INFO  testClasses.RegisterAccountTest - Enter User Credentials
+06:14:28.281 [main] INFO  testClasses.RegisterAccountTest - Click on Privacy Policy Button
+06:14:29.360 [main] INFO  testClasses.RegisterAccountTest - Click on Continue Button
+06:14:29.448 [main] INFO  testClasses.RegisterAccountTest - Verify AccountSuccessBreadCrumb Displayed or not
+06:14:32.873 [main] INFO  testClasses.RegisterAccountTest - Click on MyAccountLink
+06:14:34.263 [main] INFO  testClasses.RegisterAccountTest - Clcik on RegisterLink
+06:14:34.268 [main] INFO  testClasses.RegisterAccountTest - Enter User Credentials
+06:14:35.563 [main] INFO  testClasses.RegisterAccountTest - Click on Privacy Policy Button
+06:14:36.822 [main] INFO  testClasses.RegisterAccountTest - Click on Continue Button
+06:14:36.904 [main] INFO  testClasses.RegisterAccountTest - Verify AccountSuccessBreadCrumb Displayed or not
+06:14:41.095 [main] INFO  testClasses.RegisterAccountTest - Click on MyAccountLink
+06:14:42.365 [main] INFO  testClasses.RegisterAccountTest - Clcik on RegisterLink
+06:14:42.374 [main] INFO  testClasses.RegisterAccountTest - Enter User Credentials
+06:14:43.410 [main] INFO  testClasses.RegisterAccountTest - Click on Privacy Policy Button
+06:14:44.418 [main] INFO  testClasses.RegisterAccountTest - Click on Continue Button
+06:14:44.529 [main] INFO  testClasses.RegisterAccountTest - Verify AccountSuccessBreadCrumb Displayed or not
+06:14:48.283 [main] INFO  testClasses.RegisterAccountTest - Click on MyAccountLink
+06:14:49.126 [main] INFO  testClasses.RegisterAccountTest - Clcik on RegisterLink
+06:14:49.131 [main] INFO  testClasses.RegisterAccountTest - Enter User Credentials
+06:14:50.464 [main] INFO  testClasses.RegisterAccountTest - Click on Privacy Policy Button
+06:14:51.609 [main] INFO  testClasses.RegisterAccountTest - Click on Continue Button
+06:14:51.723 [main] INFO  testClasses.RegisterAccountTest - Verify AccountSuccessBreadCrumb Displayed or not
