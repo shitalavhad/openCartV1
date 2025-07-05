@@ -21,9 +21,22 @@ public class LoginPage extends PageBase {
 	@FindBy(xpath="//div[@class='form-group']//a[normalize-space()='Forgotten Password']")
 	private WebElement forgottenPasswordLink;
 	
-	public void clickOnForgottenPasswordLink()
+	@FindBy(xpath="//div[contains(@class,'alert alert')]")
+	private WebElement invalidempwdWarning;
+	
+	public String getInvalidEmPwdWarning()
+	{
+		return invalidempwdWarning.getText();
+	}
+	
+	public boolean isForgottenLinkDisplayed()
+	{
+		 return forgottenPasswordLink.isDisplayed();
+	}
+	public ForgotYourPassordPage clickOnForgottenPasswordLink()
 	{
 		forgottenPasswordLink.click();
+		return new ForgotYourPassordPage(driver);
 	}
 	
 	public MyAccountPage clickOnLoginButton()

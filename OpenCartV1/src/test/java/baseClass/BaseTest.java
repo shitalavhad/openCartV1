@@ -25,6 +25,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.io.FileHandler;
 
 import pomClasses.AccountSuccessPage;
+import pomClasses.ForgotYourPassordPage;
 import pomClasses.HomePage;
 import pomClasses.LoginPage;
 import pomClasses.MyAccountPage;
@@ -41,6 +42,7 @@ public class BaseTest {
 	public RegisterAccountPage registerAccountPage;
 	public LoginPage loginPage;
 	public MyAccountPage myAccountPage;
+	public  ForgotYourPassordPage  forgotYourPassordPage;
 	public Logger logger;
 	
 	public WebDriver setup(String browser)
