@@ -29,7 +29,10 @@ import pomClasses.ForgotYourPassordPage;
 import pomClasses.HomePage;
 import pomClasses.LoginPage;
 import pomClasses.MyAccountPage;
+import pomClasses.ProductDisplayPage;
 import pomClasses.RegisterAccountPage;
+import pomClasses.SearchPage;
+import pomClasses.ShoppingCartPage;
 import ru.yandex.qatools.ashot.AShot;
 import ru.yandex.qatools.ashot.Screenshot;
 import ru.yandex.qatools.ashot.shooting.ShootingStrategies;
@@ -43,6 +46,9 @@ public class BaseTest {
 	public LoginPage loginPage;
 	public MyAccountPage myAccountPage;
 	public  ForgotYourPassordPage  forgotYourPassordPage;
+	public SearchPage searchPage;
+	public  ProductDisplayPage   productDisplayPage ;
+	public ShoppingCartPage  shoppingCartPage ;
 	public Logger logger;
 	
 	public WebDriver setup(String browser)

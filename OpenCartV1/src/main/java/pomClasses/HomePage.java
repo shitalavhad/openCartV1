@@ -19,6 +19,22 @@ public class HomePage extends PageBase {
 	@FindBy(xpath="//a[normalize-space()='Login']")
 	private WebElement loginLink;
 	
+	@FindBy(xpath="//input[@placeholder='Search']")
+	private WebElement searchField;
+	
+	@FindBy(xpath="//button[@class='btn btn-default btn-lg']")
+	private WebElement btnSearch;
+	
+	public SearchPage clickOnSearchButton()
+	{
+		btnSearch.click();
+		return new SearchPage(driver);
+	}
+	
+	public void eneterProductName(String pName)
+	{
+		searchField.sendKeys(pName);
+	}
 	
 	public LoginPage clickOnLoginLink()
 	{

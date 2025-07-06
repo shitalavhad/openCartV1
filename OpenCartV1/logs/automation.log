@@ -1,3 +1,35 @@
-06:14:55.551 [main] INFO  testClasses.RegisterAccountTest - Click on MyAccountLink
-06:14:56.707 [main] INFO  testClasses.RegisterAccountTest - Clcik on RegisterLink
-06:14:56.716 [main] INFO  testClasses.RegisterAccountTest - Enter User Credentials
+12:26:49.908 [main] INFO  testClasses.LoginTest - Verify error message
+12:26:50.017 [main] INFO  testClasses.LoginTest - ****Finished TC-002:Login with invalid credencials******
+12:26:53.428 [main] INFO  testClasses.LoginTest - Click On MyAccountLink
+12:26:53.877 [main] INFO  testClasses.LoginTest - Click on loginLink
+12:26:53.886 [main] INFO  testClasses.LoginTest - ****Started TC-003:Login with invalid  Email  and Valid Password******
+12:26:53.887 [main] INFO  testClasses.LoginTest - Enetr Invalid Email and Password
+12:26:54.310 [main] INFO  testClasses.LoginTest - Clcik on login Button
+12:26:54.855 [main] INFO  testClasses.LoginTest - Verify error message
+12:26:54.939 [main] INFO  testClasses.LoginTest - ****Finished TC-003:Login with invalid Email and valid Password ******
+12:26:58.597 [main] INFO  testClasses.LoginTest - Click On MyAccountLink
+12:26:59.056 [main] INFO  testClasses.LoginTest - Click on loginLink
+12:26:59.072 [main] INFO  testClasses.LoginTest - ****Started TC-004:Login with valid Email  and InValid Password******
+12:26:59.073 [main] INFO  testClasses.LoginTest - Enetr Invalid Email and Password
+12:26:59.474 [main] INFO  testClasses.LoginTest - Clcik on login Button
+12:27:00.548 [main] INFO  testClasses.LoginTest - Verify error message
+12:27:00.633 [main] INFO  testClasses.LoginTest - ****Finished TC-004:Login with valid Email and Invalid Password ******
+12:27:04.070 [main] INFO  testClasses.LoginTest - Click On MyAccountLink
+12:27:04.533 [main] INFO  testClasses.LoginTest - Click on loginLink
+12:27:04.543 [main] INFO  testClasses.LoginTest - ****Started TC-005:Login with without Credentials******
+12:27:04.544 [main] INFO  testClasses.LoginTest - Clcik on login Button
+12:27:05.350 [main] INFO  testClasses.LoginTest - Verify error message
+12:27:05.438 [main] INFO  testClasses.LoginTest - ****Finished TC-005:Login with without Credentials ******
+12:27:08.818 [main] INFO  testClasses.LoginTest - Click On MyAccountLink
+12:27:09.266 [main] INFO  testClasses.LoginTest - Click on loginLink
+12:27:09.273 [main] INFO  testClasses.LoginTest - ****Started TC-006: verify) Forgotten Link Avaliable and Working****
+12:27:09.274 [main] INFO  testClasses.LoginTest - Verify ForgottenPassword Link Avalible on login Page
+12:27:09.422 [main] INFO  testClasses.LoginTest - Click on ForgottenPassword Link
+12:27:09.829 [main] INFO  testClasses.LoginTest - Verify user Navigate to forgotYourPassword Page
+12:27:09.915 [main] INFO  testClasses.LoginTest - ****Finished TC-006: verify forgottenpassword link avaliable and working fine ******
+12:27:13.364 [main] INFO  testClasses.EndToEndTest - Click on MyAccountLink
+12:27:14.249 [main] INFO  testClasses.EndToEndTest - Clcik on RegisterLink
+12:27:14.263 [main] INFO  testClasses.EndToEndTest - Account Registations
+12:27:17.329 [main] INFO  testClasses.EndToEndTest - Login to Application
+12:27:19.404 [main] INFO  testClasses.EndToEndTest - Search and add product to cart
+12:27:21.784 [main] INFO  testClasses.EndToEndTest - Shooping cart

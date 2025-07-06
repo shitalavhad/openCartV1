@@ -16,6 +16,14 @@ public class AccountSuccessPage extends PageBase {
 	@FindBy(xpath="//h1[contains(text(),'Your Account')]")
 	private WebElement accountSuccessMessage;
 	
+	@FindBy(xpath="//a[@class='list-group-item'][normalize-space()='Logout']")
+	private WebElement logoutLink;
+	
+	public void clickOnLogoutLink()
+	{
+		logoutLink.click();
+	}
+	
 	public String retriveAccountSuccessMessage()
 	{
 		return accountSuccessMessage.getText();
