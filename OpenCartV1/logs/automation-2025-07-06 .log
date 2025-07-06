@@ -1,54 +1,59 @@
-12:19:44.675 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:19:44.683 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:19:44.684 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:19:44.685 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:19:44.686 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:19:44.686 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:19:44.687 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:19:44.688 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:19:44.689 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:19:44.690 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:19:44.697 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:19:44.698 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:19:44.701 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:19:44.702 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:19:44.702 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:19:44.702 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:19:44.707 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 2 ms.
-12:19:44.718 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 9 ms.
-12:19:44.722 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:19:44.723 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:19:44.723 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:19:44.723 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:19:44.748 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\SAI\AppData\Local\Temp\testng-eclipse-1478046405\testng-customsuite.xml
-
-12:19:44.834 [main] INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 26 ms.
-12:26:16.629 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+13:07:05.479 [main] INFO  testClasses.EndToEndTest - Login to Application
+13:07:07.729 [main] INFO  testClasses.EndToEndTest - Search and add product to cart
+13:07:09.720 [main] INFO  testClasses.EndToEndTest - Shooping cart
+13:10:42.828 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
   C:\Users\SAI\git\openCartV1\OpenCartV1\master.xml
 
-12:26:26.130 [main] INFO  testClasses.RegisterAccountTest - Click on MyAccountLink
-12:26:27.076 [main] INFO  testClasses.RegisterAccountTest - Clcik on RegisterLink
-12:26:27.096 [main] INFO  testClasses.RegisterAccountTest - Enter User Credentials
-12:26:28.311 [main] INFO  testClasses.RegisterAccountTest - Click on Privacy Policy Button
-12:26:29.355 [main] INFO  testClasses.RegisterAccountTest - Click on Continue Button
-12:26:29.494 [main] INFO  testClasses.RegisterAccountTest - Verify AccountSuccessBreadCrumb Displayed or not
-12:26:29.570 [main] INFO  testClasses.RegisterAccountTest - Verify Account Success Message
-12:26:33.768 [main] INFO  testClasses.RegisterAccountTest - Click on MyAccountLink
-12:26:34.399 [main] INFO  testClasses.RegisterAccountTest - Clcik on RegisterLink
-12:26:34.409 [main] INFO  testClasses.RegisterAccountTest - Enter User Credentials
-12:26:35.757 [main] INFO  testClasses.RegisterAccountTest - Click on Privacy Policy Button
-12:26:36.678 [main] INFO  testClasses.RegisterAccountTest - Click on Continue Button
-12:26:36.759 [main] INFO  testClasses.RegisterAccountTest - Verify AccountSuccessBreadCrumb Displayed or not
-12:26:36.814 [main] INFO  testClasses.RegisterAccountTest - Verify Account Success Message
-12:26:42.760 [main] INFO  testClasses.LoginTest - Click On MyAccountLink
-12:26:43.242 [main] INFO  testClasses.LoginTest - Click on loginLink
-12:26:43.248 [main] INFO  testClasses.LoginTest -  *****Started TC-001:Login with valid credentials ****
-12:26:43.249 [main] INFO  testClasses.LoginTest - Enter valid Email and Password
-12:26:43.661 [main] INFO  testClasses.LoginTest - Click on LoginButton
-12:26:44.695 [main] INFO  testClasses.LoginTest - *****Finish TC-001:Login with valid credentials *****
-12:26:48.252 [main] INFO  testClasses.LoginTest - Click On MyAccountLink
-12:26:48.714 [main] INFO  testClasses.LoginTest - Click on loginLink
-12:26:48.727 [main] INFO  testClasses.LoginTest - ****Started TC-002:Login with invalid credencials******
-12:26:48.728 [main] INFO  testClasses.LoginTest - Enetr Invalid Email and Password
-12:26:49.133 [main] INFO  testClasses.LoginTest - Clcik on login Button
+13:10:49.085 [main] INFO  testClasses.RegisterAccountTest - Click on MyAccountLink
+13:10:49.884 [main] INFO  testClasses.RegisterAccountTest - Clcik on RegisterLink
+13:10:49.905 [main] INFO  testClasses.RegisterAccountTest - Enter User Credentials
+13:10:51.126 [main] INFO  testClasses.RegisterAccountTest - Click on Privacy Policy Button
+13:10:52.033 [main] INFO  testClasses.RegisterAccountTest - Click on Continue Button
+13:10:52.129 [main] INFO  testClasses.RegisterAccountTest - Verify AccountSuccessBreadCrumb Displayed or not
+13:10:52.187 [main] INFO  testClasses.RegisterAccountTest - Verify Account Success Message
+13:10:55.622 [main] INFO  testClasses.RegisterAccountTest - Click on MyAccountLink
+13:10:56.244 [main] INFO  testClasses.RegisterAccountTest - Clcik on RegisterLink
+13:10:56.256 [main] INFO  testClasses.RegisterAccountTest - Enter User Credentials
+13:10:57.670 [main] INFO  testClasses.RegisterAccountTest - Click on Privacy Policy Button
+13:10:58.656 [main] INFO  testClasses.RegisterAccountTest - Click on Continue Button
+13:10:58.742 [main] INFO  testClasses.RegisterAccountTest - Verify AccountSuccessBreadCrumb Displayed or not
+13:10:58.798 [main] INFO  testClasses.RegisterAccountTest - Verify Account Success Message
+13:11:02.150 [main] INFO  testClasses.LoginTest - Click On MyAccountLink
+13:11:02.601 [main] INFO  testClasses.LoginTest - Click on loginLink
+13:11:02.615 [main] INFO  testClasses.LoginTest -  *****Started TC-001:Login with valid credentials ****
+13:11:02.616 [main] INFO  testClasses.LoginTest - Enter valid Email and Password
+13:11:03.043 [main] INFO  testClasses.LoginTest - Click on LoginButton
+13:11:04.012 [main] INFO  testClasses.LoginTest - *****Finish TC-001:Login with valid credentials *****
+13:11:07.841 [main] INFO  testClasses.LoginTest - Click On MyAccountLink
+13:11:08.450 [main] INFO  testClasses.LoginTest - Click on loginLink
+13:11:08.458 [main] INFO  testClasses.LoginTest - ****Started TC-002:Login with invalid credencials******
+13:11:08.458 [main] INFO  testClasses.LoginTest - Enetr Invalid Email and Password
+13:11:08.828 [main] INFO  testClasses.LoginTest - Clcik on login Button
+13:11:08.983 [main] INFO  testClasses.LoginTest - Verify error message
+13:11:09.594 [main] INFO  testClasses.LoginTest - ****Finished TC-002:Login with invalid credencials******
+13:11:13.181 [main] INFO  testClasses.LoginTest - Click On MyAccountLink
+13:11:13.609 [main] INFO  testClasses.LoginTest - Click on loginLink
+13:11:13.626 [main] INFO  testClasses.LoginTest - ****Started TC-003:Login with invalid  Email  and Valid Password******
+13:11:13.627 [main] INFO  testClasses.LoginTest - Enetr Invalid Email and Password
+13:11:14.042 [main] INFO  testClasses.LoginTest - Clcik on login Button
+13:11:14.515 [main] INFO  testClasses.LoginTest - Verify error message
+13:11:14.666 [main] INFO  testClasses.LoginTest - ****Finished TC-003:Login with invalid Email and valid Password ******
+13:11:20.157 [main] INFO  testClasses.LoginTest - Click On MyAccountLink
+13:11:20.591 [main] INFO  testClasses.LoginTest - Click on loginLink
+13:11:20.606 [main] INFO  testClasses.LoginTest - ****Started TC-004:Login with valid Email  and InValid Password******
+13:11:20.606 [main] INFO  testClasses.LoginTest - Enetr Invalid Email and Password
+13:11:21.012 [main] INFO  testClasses.LoginTest - Clcik on login Button
+13:11:21.645 [main] INFO  testClasses.LoginTest - Verify error message
+13:11:21.786 [main] INFO  testClasses.LoginTest - ****Finished TC-004:Login with valid Email and Invalid Password ******
+13:11:25.175 [main] INFO  testClasses.LoginTest - Click On MyAccountLink
+13:11:25.846 [main] INFO  testClasses.LoginTest - Click on loginLink
+13:11:25.857 [main] INFO  testClasses.LoginTest - ****Started TC-005:Login with without Credentials******
+13:11:25.860 [main] INFO  testClasses.LoginTest - Clcik on login Button
+13:11:26.971 [main] INFO  testClasses.LoginTest - Verify error message
+13:11:27.057 [main] INFO  testClasses.LoginTest - ****Finished TC-005:Login with without Credentials ******
+13:11:30.720 [main] INFO  testClasses.LoginTest - Click On MyAccountLink
+13:11:31.299 [main] INFO  testClasses.LoginTest - Click on loginLink
+13:11:31.304 [main] INFO  testClasses.LoginTest - ****Started TC-006: verify) Forgotten Link Avaliable and Working****
+13:11:31.304 [main] INFO  testClasses.LoginTest - Verify ForgottenPassword Link Avalible on login Page
+13:11:31.382 [main] INFO  testClasses.LoginTest - Click on ForgottenPassword Link
+13:11:32.002 [main] INFO  testClasses.LoginTest - Verify user Navigate to forgotYourPassword Page

@@ -22,18 +22,20 @@ private WebElement addToCartButton;
 @FindBy(xpath="//div[@class='alert alert-success alert-dismissible']")
 private WebElement addToCartSuccessMessage;
 
-@FindBy(xpath="//a[normalize-space()='shopping cart']")
+@FindBy(xpath="(//div[@id='top-links']//span)[5][text()='Shopping Cart']")
 private WebElement shoppingCartLink;
 
 public ShoppingCartPage clickOnShoppingCartLink()
 {
+	//js.executeScript("arguments[0].click();", shoppingCartLink);
 	ewait.until(ExpectedConditions.visibilityOf(shoppingCartLink)).click();
 	return new ShoppingCartPage (driver);
 }
 
 public boolean isAddToCartSuccessMessageDisplayed()
 {
-	 return addToCartSuccessMessage.isDisplayed();
+	return ewait.until(ExpectedConditions.visibilityOf(addToCartSuccessMessage)).isDisplayed();
+	 //return addToCartSuccessMessage.isDisplayed();
 }
 public void ClickOnAddToCartButton()
 {

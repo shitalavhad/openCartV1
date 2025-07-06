@@ -86,6 +86,7 @@ public class EndToEndTest extends BaseTest {
 	 soft.assertEquals(productDisplayPage.isAddToCartSuccessMessageDisplayed(), true);
 	 
 	 logger.info("Shooping cart");
+	shoppingCartPage=productDisplayPage.clickOnShoppingCartLink();
 	 ShoppingCartPage shoppingCartPage=new ShoppingCartPage(driver);
 	 soft.assertTrue(shoppingCartPage.isProductImageDisplayed());
 	 String totprices=shoppingCartPage.getTotalPrice();
