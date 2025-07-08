@@ -1,0 +1,59 @@
+13:11:32.072 [main] INFO  testClasses.LoginTest - ****Finished TC-006: verify forgottenpassword link avaliable and working fine ******
+13:11:35.475 [main] INFO  testClasses.EndToEndTest - Click on MyAccountLink
+13:11:36.105 [main] INFO  testClasses.EndToEndTest - Clcik on RegisterLink
+13:11:36.123 [main] INFO  testClasses.EndToEndTest - Account Registations
+13:11:38.769 [main] INFO  testClasses.EndToEndTest - Login to Application
+13:11:40.807 [main] INFO  testClasses.EndToEndTest - Search and add product to cart
+13:11:42.613 [main] INFO  testClasses.EndToEndTest - Shooping cart
+08:31:55.672 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\SAI\git\openCartV1\OpenCartV1\master.xml
+
+08:32:03.607 [main] INFO  testClasses.RegisterAccountTest - Click on MyAccountLink
+08:32:04.257 [main] INFO  testClasses.RegisterAccountTest - Clcik on RegisterLink
+08:32:04.274 [main] INFO  testClasses.RegisterAccountTest - Enter User Credentials
+08:32:05.508 [main] INFO  testClasses.RegisterAccountTest - Click on Privacy Policy Button
+08:32:06.450 [main] INFO  testClasses.RegisterAccountTest - Click on Continue Button
+08:32:06.557 [main] INFO  testClasses.RegisterAccountTest - Verify AccountSuccessBreadCrumb Displayed or not
+08:32:06.618 [main] INFO  testClasses.RegisterAccountTest - Verify Account Success Message
+08:33:07.847 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\SAI\git\openCartV1\OpenCartV1\master.xml
+
+08:33:14.374 [main] INFO  testClasses.RegisterAccountTest - Click on MyAccountLink
+08:33:15.455 [main] INFO  testClasses.RegisterAccountTest - Clcik on RegisterLink
+08:33:15.478 [main] INFO  testClasses.RegisterAccountTest - Enter User Credentials
+08:33:16.833 [main] INFO  testClasses.RegisterAccountTest - Click on Privacy Policy Button
+08:33:17.741 [main] INFO  testClasses.RegisterAccountTest - Click on Continue Button
+08:33:17.898 [main] INFO  testClasses.RegisterAccountTest - Verify AccountSuccessBreadCrumb Displayed or not
+08:33:17.967 [main] INFO  testClasses.RegisterAccountTest - Verify Account Success Message
+08:33:21.833 [main] INFO  testClasses.RegisterAccountTest - Click on MyAccountLink
+08:33:22.470 [main] INFO  testClasses.RegisterAccountTest - Clcik on RegisterLink
+08:33:22.482 [main] INFO  testClasses.RegisterAccountTest - Enter User Credentials
+08:33:23.854 [main] INFO  testClasses.RegisterAccountTest - Click on Privacy Policy Button
+08:33:24.814 [main] INFO  testClasses.RegisterAccountTest - Click on Continue Button
+08:33:24.910 [main] INFO  testClasses.RegisterAccountTest - Verify AccountSuccessBreadCrumb Displayed or not
+08:33:24.971 [main] INFO  testClasses.RegisterAccountTest - Verify Account Success Message
+08:34:19.308 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\SAI\git\openCartV1\OpenCartV1\master.xml
+
+08:34:25.631 [main] INFO  testClasses.RegisterAccountTest - Click on MyAccountLink
+08:34:26.293 [main] INFO  testClasses.RegisterAccountTest - Clcik on RegisterLink
+08:34:26.315 [main] INFO  testClasses.RegisterAccountTest - Enter User Credentials
+08:34:27.590 [main] INFO  testClasses.RegisterAccountTest - Click on Privacy Policy Button
+08:34:28.525 [main] INFO  testClasses.RegisterAccountTest - Click on Continue Button
+08:34:28.643 [main] INFO  testClasses.RegisterAccountTest - Verify AccountSuccessBreadCrumb Displayed or not
+08:34:28.700 [main] INFO  testClasses.RegisterAccountTest - Verify Account Success Message
+08:34:32.250 [main] INFO  testClasses.RegisterAccountTest - Click on MyAccountLink
+08:34:32.909 [main] INFO  testClasses.RegisterAccountTest - Clcik on RegisterLink
+08:34:32.922 [main] INFO  testClasses.RegisterAccountTest - Enter User Credentials
+08:34:34.294 [main] INFO  testClasses.RegisterAccountTest - Click on Privacy Policy Button
+08:34:35.169 [main] INFO  testClasses.RegisterAccountTest - Click on Continue Button
+08:34:35.268 [main] INFO  testClasses.RegisterAccountTest - Verify AccountSuccessBreadCrumb Displayed or not
+08:34:35.320 [main] INFO  testClasses.RegisterAccountTest - Verify Account Success Message
+08:39:01.346 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\SAI\git\openCartV1\OpenCartV1\master.xml
+
+08:39:04.738 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 138.0.3351.77 (resolved driver for Edge 138)
+08:39:04.930 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Reading https://msedgedriver.azureedge.net/?restype=container&comp=list to seek msedgedriver
+08:39:07.610 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Downloading https://msedgewebdriverstorage.blob.core.windows.net/edgewebdriver/138.0.3351.77/edgedriver_win64.zip
+08:39:18.183 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Extracting driver from compressed file edgedriver_win64.zip
+08:39:19.781 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\SAI\.cache\selenium\msedgedriver\win64\138.0.3351.77\msedgedriver.exe

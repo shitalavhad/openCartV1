@@ -11,6 +11,7 @@ import java.awt.Toolkit;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
+import java.net.URL;
 import java.text.SimpleDateFormat;
 import java.time.Duration;
 import java.util.Date;
@@ -19,11 +20,17 @@ import javax.imageio.ImageIO;
 
 import org.apache.commons.lang3.RandomStringUtils;
 import org.openqa.selenium.OutputType;
+import org.openqa.selenium.Platform;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.io.FileHandler;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
 import pomClasses.AccountSuccessPage;
 import pomClasses.ForgotYourPassordPage;
 import pomClasses.HomePage;
@@ -51,16 +58,83 @@ public class BaseTest {
 	public ShoppingCartPage  shoppingCartPage ;
 	public Logger logger;
 	
-	public WebDriver setup(String browser)
+	public WebDriver setup(String browser,String os)
 	{
+		try {
 		logger=LogManager.getLogger(this.getClass());//log4j
 		
-		System.setProperty("webdriver.chrome.driver", "H:\\Chrome\\chromedriver-win64\\chromedriver.exe");
-		driver=new ChromeDriver();
-		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		driver.get(CommonUtiles.getProperty("url"));
-		return  driver;
+		    //code for remote execution
+				if(CommonUtiles.getProperty("execution_env").equalsIgnoreCase("remote"))
+				{
+					DesiredCapabilities capabilities=new DesiredCapabilities();
+					//cheak os
+					if(os.equalsIgnoreCase("windows"))
+					{
+						capabilities.setPlatform(Platform.WIN10);
+					}
+					else if(os.equalsIgnoreCase("mac"))
+					{
+						capabilities.setPlatform(Platform.MAC);
+					}
+					else if(os.equalsIgnoreCase("linux"))
+					{
+						capabilities.setPlatform(Platform.LINUX);
+					}
+					else
+					{
+						System.out.println("No matching os");
+						
+					}
+					
+					//browser
+					switch(browser.toLowerCase())
+					{
+					case "chrome":capabilities.setBrowserName("chrome");break;
+					case"edge"     :capabilities.setBrowserName("edge");break;
+					case"firefox" :capabilities.setBrowserName("firefox");break;
+					default :System.out.println("no maching browser");
+					}
+					driver=new RemoteWebDriver(new URL("http://192.168.0.19:4444"), capabilities);
+					
+				}
+				
+				
+				//code for execution on localMachine
+				if(CommonUtiles.getProperty("execution_env").equalsIgnoreCase("local"))
+					if(browser.equals("chrome"))
+					{
+						System.setProperty("webdriver.chrome.driver", "H:\\Chrome\\chromedriver-win64\\chromedriver.exe");
+						driver=new ChromeDriver();
+					}
+					else if(browser.equals("edge"))
+					{
+						WebDriverManager.edgedriver().setup();
+						driver=new EdgeDriver();
+					}
+					else if(browser.equals("firefor"))
+					{
+						WebDriverManager.firefoxdriver().setup();
+						driver=new FirefoxDriver();
+						
+					}
+					else
+					{
+						System.out.println("Invalid browser name");
+					}
+				
+				driver.manage().deleteAllCookies();
+				 
+				 driver.manage().window().maximize();
+				 
+				 driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+				 driver.get(CommonUtiles.getProperty("url"));
+		}
+		catch(Exception e)
+		{
+			e.printStackTrace();
+		}
+				 			 	 
+		   return  driver;
 	}
 	
 	public void tearDown()

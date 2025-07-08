@@ -6,11 +6,10 @@
 <!--listener class-name="utilities.TransformerManager"/-->
 </listeners>
 <parameter name="browser" value="chrome"></parameter>
+<parameter name="os" value="windows"></parameter>
   <test thread-count="5" name="Test">
     <classes>
       <class name="testClasses.RegisterAccountTest"/>
-      <class name="testClasses.LoginTest"/>
-      <class name="testClasses.EndToEndTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

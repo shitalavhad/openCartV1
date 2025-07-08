@@ -1,188 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-06T13:10:42 PDT" name="Suite" finished-at="2025-07-06T13:11:44 PDT" duration-ms="61788">
+  <suite started-at="2025-07-08T11:06:04 PDT" name="Suite" finished-at="2025-07-08T11:06:30 PDT" duration-ms="25763">
     <groups>
     </groups>
-    <test started-at="2025-07-06T13:10:42 PDT" name="Test" finished-at="2025-07-06T13:11:44 PDT" duration-ms="61788">
+    <test started-at="2025-07-08T11:06:04 PDT" name="Test" finished-at="2025-07-08T11:06:30 PDT" duration-ms="25763">
       <class name="testClasses.RegisterAccountTest">
-        <test-method is-config="true" signature="openApplication(java.lang.String)[pri:0, instance:testClasses.RegisterAccountTest@34997338]" started-at="2025-07-06T13:10:43 PDT" name="openApplication" finished-at="2025-07-06T13:10:49 PDT" duration-ms="6411" status="PASS">
+        <test-method is-config="true" signature="openApplication(java.lang.String,java.lang.String)[pri:0, instance:testClasses.RegisterAccountTest@2cae1042]" started-at="2025-07-08T11:06:05 PDT" name="openApplication" finished-at="2025-07-08T11:06:12 PDT" duration-ms="7210" status="PASS">
           <params>
             <param index="0">
               <value>
                 <![CDATA[chrome]]>
               </value>
             </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApplication -->
-        <test-method signature="verifyRegisteringAccountWithManetoryFields()[pri:1, instance:testClasses.RegisterAccountTest@34997338]" started-at="2025-07-06T13:10:49 PDT" name="verifyRegisteringAccountWithManetoryFields" description="TC-001: Verify RegistreAccount with only manetory fields" finished-at="2025-07-06T13:10:52 PDT" duration-ms="2301" status="PASS">
+        <test-method signature="verifyRegisteringAccountWithManetoryFields()[pri:1, instance:testClasses.RegisterAccountTest@2cae1042]" started-at="2025-07-08T11:06:12 PDT" name="verifyRegisteringAccountWithManetoryFields" description="TC-001: Verify RegistreAccount with only manetory fields" finished-at="2025-07-08T11:06:15 PDT" duration-ms="2552" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisteringAccountWithManetoryFields -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testClasses.RegisterAccountTest@34997338]" started-at="2025-07-06T13:10:52 PDT" name="closeBrowser" finished-at="2025-07-06T13:10:52 PDT" duration-ms="518" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testClasses.RegisterAccountTest@2cae1042]" started-at="2025-07-08T11:06:15 PDT" name="closeBrowser" finished-at="2025-07-08T11:06:15 PDT" duration-ms="467" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="openApplication(java.lang.String)[pri:0, instance:testClasses.RegisterAccountTest@34997338]" started-at="2025-07-06T13:10:52 PDT" name="openApplication" finished-at="2025-07-06T13:10:56 PDT" duration-ms="3508" status="PASS">
+        <test-method is-config="true" signature="openApplication(java.lang.String,java.lang.String)[pri:0, instance:testClasses.RegisterAccountTest@2cae1042]" started-at="2025-07-08T11:06:15 PDT" name="openApplication" finished-at="2025-07-08T11:06:19 PDT" duration-ms="3525" status="PASS">
           <params>
             <param index="0">
               <value>
                 <![CDATA[chrome]]>
               </value>
             </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApplication -->
-        <test-method signature="verifyRegisterAccountByProvidingallFields()[pri:2, instance:testClasses.RegisterAccountTest@34997338]" started-at="2025-07-06T13:10:56 PDT" name="verifyRegisterAccountByProvidingallFields" description="TC-002:Verify RegistreAccount By providing all Fields" finished-at="2025-07-06T13:10:58 PDT" duration-ms="2553" status="PASS">
+        <test-method signature="verifyRegisterAccountByProvidingallFields()[pri:2, instance:testClasses.RegisterAccountTest@2cae1042]" started-at="2025-07-08T11:06:19 PDT" name="verifyRegisterAccountByProvidingallFields" description="TC-002:Verify RegistreAccount By providing all Fields" finished-at="2025-07-08T11:06:21 PDT" duration-ms="2387" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisterAccountByProvidingallFields -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testClasses.RegisterAccountTest@34997338]" started-at="2025-07-06T13:10:58 PDT" name="closeBrowser" finished-at="2025-07-06T13:10:59 PDT" duration-ms="377" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testClasses.RegisterAccountTest@2cae1042]" started-at="2025-07-08T11:06:21 PDT" name="closeBrowser" finished-at="2025-07-08T11:06:22 PDT" duration-ms="411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="openApplication(java.lang.String,java.lang.String)[pri:0, instance:testClasses.RegisterAccountTest@2cae1042]" started-at="2025-07-08T11:06:22 PDT" name="openApplication" finished-at="2025-07-08T11:06:26 PDT" duration-ms="4221" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="verifyRegisterAccountWithValidData()[pri:3, instance:testClasses.RegisterAccountTest@2cae1042]" started-at="2025-07-08T11:06:26 PDT" name="verifyRegisterAccountWithValidData" description="TC-003: Verify RegisterFunctinality with valid Data" finished-at="2025-07-08T11:06:29 PDT" duration-ms="3465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterAccountWithValidData -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testClasses.RegisterAccountTest@2cae1042]" started-at="2025-07-08T11:06:29 PDT" name="closeBrowser" finished-at="2025-07-08T11:06:30 PDT" duration-ms="413" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- testClasses.RegisterAccountTest -->
-      <class name="testClasses.EndToEndTest">
-        <test-method is-config="true" signature="openApplication(java.lang.String)[pri:0, instance:testClasses.EndToEndTest@531c311e]" started-at="2025-07-06T13:11:32 PDT" name="openApplication" finished-at="2025-07-06T13:11:36 PDT" duration-ms="3654" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openApplication -->
-        <test-method signature="verifyEndToEndTest()[pri:1, instance:testClasses.EndToEndTest@531c311e]" started-at="2025-07-06T13:11:36 PDT" name="verifyEndToEndTest" description="TC-001: Verify End To End Test" finished-at="2025-07-06T13:11:44 PDT" duration-ms="7907" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyEndToEndTest -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testClasses.EndToEndTest@531c311e]" started-at="2025-07-06T13:11:44 PDT" name="closeBrowser" finished-at="2025-07-06T13:11:44 PDT" duration-ms="603" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- testClasses.EndToEndTest -->
-      <class name="testClasses.LoginTest">
-        <test-method is-config="true" signature="openApplication(java.lang.String)[pri:0, instance:testClasses.LoginTest@60d1a32f]" started-at="2025-07-06T13:10:59 PDT" name="openApplication" finished-at="2025-07-06T13:11:02 PDT" duration-ms="3420" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openApplication -->
-        <test-method signature="verifyLoginWithValidCredentials()[pri:1, instance:testClasses.LoginTest@60d1a32f]" started-at="2025-07-06T13:11:02 PDT" name="verifyLoginWithValidCredentials" description="TC-001: Login  with  valid Credentials" finished-at="2025-07-06T13:11:04 PDT" duration-ms="1410" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginWithValidCredentials -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testClasses.LoginTest@60d1a32f]" started-at="2025-07-06T13:11:04 PDT" name="closeBrowser" finished-at="2025-07-06T13:11:04 PDT" duration-ms="769" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="openApplication(java.lang.String)[pri:0, instance:testClasses.LoginTest@60d1a32f]" started-at="2025-07-06T13:11:04 PDT" name="openApplication" finished-at="2025-07-06T13:11:08 PDT" duration-ms="3663" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openApplication -->
-        <test-method signature="verifyLoginWithInvalidCredentials()[pri:2, instance:testClasses.LoginTest@60d1a32f]" started-at="2025-07-06T13:11:08 PDT" name="verifyLoginWithInvalidCredentials" description="TC-002:Login with Invalid Credentials" finished-at="2025-07-06T13:11:09 PDT" duration-ms="1142" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginWithInvalidCredentials -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testClasses.LoginTest@60d1a32f]" started-at="2025-07-06T13:11:09 PDT" name="closeBrowser" finished-at="2025-07-06T13:11:10 PDT" duration-ms="442" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="openApplication(java.lang.String)[pri:0, instance:testClasses.LoginTest@60d1a32f]" started-at="2025-07-06T13:11:10 PDT" name="openApplication" finished-at="2025-07-06T13:11:13 PDT" duration-ms="3562" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openApplication -->
-        <test-method signature="verifyLoginWithInvalidEmailAndValidPassword()[pri:3, instance:testClasses.LoginTest@60d1a32f]" started-at="2025-07-06T13:11:13 PDT" name="verifyLoginWithInvalidEmailAndValidPassword" description="TC-003:Login with invalid Email and valid Password" finished-at="2025-07-06T13:11:14 PDT" duration-ms="1054" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginWithInvalidEmailAndValidPassword -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testClasses.LoginTest@60d1a32f]" started-at="2025-07-06T13:11:14 PDT" name="closeBrowser" finished-at="2025-07-06T13:11:14 PDT" duration-ms="325" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="openApplication(java.lang.String)[pri:0, instance:testClasses.LoginTest@60d1a32f]" started-at="2025-07-06T13:11:15 PDT" name="openApplication" finished-at="2025-07-06T13:11:20 PDT" duration-ms="5591" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openApplication -->
-        <test-method signature="verifyLoginWithValidEmailAndInvalidPassword()[pri:4, instance:testClasses.LoginTest@60d1a32f]" started-at="2025-07-06T13:11:20 PDT" name="verifyLoginWithValidEmailAndInvalidPassword" description="TC-004:Login with Valid Email and  Invalid Password" finished-at="2025-07-06T13:11:21 PDT" duration-ms="1194" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginWithValidEmailAndInvalidPassword -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testClasses.LoginTest@60d1a32f]" started-at="2025-07-06T13:11:21 PDT" name="closeBrowser" finished-at="2025-07-06T13:11:22 PDT" duration-ms="374" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="openApplication(java.lang.String)[pri:0, instance:testClasses.LoginTest@60d1a32f]" started-at="2025-07-06T13:11:22 PDT" name="openApplication" finished-at="2025-07-06T13:11:25 PDT" duration-ms="3682" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openApplication -->
-        <test-method signature="verifyLoginWithWithoutCredentials()[pri:5, instance:testClasses.LoginTest@60d1a32f]" started-at="2025-07-06T13:11:25 PDT" name="verifyLoginWithWithoutCredentials" description="TC-005:Login with without Credentials" finished-at="2025-07-06T13:11:27 PDT" duration-ms="1210" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginWithWithoutCredentials -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testClasses.LoginTest@60d1a32f]" started-at="2025-07-06T13:11:27 PDT" name="closeBrowser" finished-at="2025-07-06T13:11:27 PDT" duration-ms="392" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="openApplication(java.lang.String)[pri:0, instance:testClasses.LoginTest@60d1a32f]" started-at="2025-07-06T13:11:27 PDT" name="openApplication" finished-at="2025-07-06T13:11:31 PDT" duration-ms="3847" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openApplication -->
-        <test-method signature="verifyForgottenLinkAvaliableAndWorking()[pri:6, instance:testClasses.LoginTest@60d1a32f]" started-at="2025-07-06T13:11:31 PDT" name="verifyForgottenLinkAvaliableAndWorking" description="TC-006: Verify Forgotten Link Avaliable and Working" finished-at="2025-07-06T13:11:32 PDT" duration-ms="786" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyForgottenLinkAvaliableAndWorking -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testClasses.LoginTest@60d1a32f]" started-at="2025-07-06T13:11:32 PDT" name="closeBrowser" finished-at="2025-07-06T13:11:32 PDT" duration-ms="361" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- testClasses.LoginTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

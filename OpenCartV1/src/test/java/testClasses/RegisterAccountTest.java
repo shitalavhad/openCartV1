@@ -6,14 +6,15 @@ import org.testng.annotations.*;
 import baseClass.BaseTest;
 import pomClasses.HomePage;
 import utilities.Constant;
+import utilities.FakerDataUtiles;
 
 public class RegisterAccountTest extends  BaseTest{
-@Parameters("browser")
+@Parameters({"browser","os"})
 @BeforeMethod
-public void openApplication(String browser)
+public void openApplication(String browser,String os)
 {
 	
-	driver=setup("chrome");
+	driver=setup(browser,os);
 	homePage=new HomePage(driver);
 	homePage.clickOnMyAccountLink();
 	logger.info("Click on MyAccountLink");
@@ -87,6 +88,38 @@ catch(Exception e)
 	logger.debug("Debug logs----------");
 }
 }
-	
+@Test(priority=3,description="TC-003: Verify RegisterFunctinality with valid Data")
+	public void verifyRegisterAccountWithValidData()
+	{
+	    logger.info("****Started TC-003: Verify RegisterFunctinality with valid Data*****");
+	try {
+		logger.info("Insert all information ");
+		registerAccountPage.enterTextInFirstNameField(FakerDataUtiles.getFirstName());
+		registerAccountPage.enterTextInLastNameField(FakerDataUtiles.getLastName());
+		registerAccountPage.enterTextInEmailField(FakerDataUtiles.getEmail());
+		registerAccountPage.enterTextInTelephoneField(FakerDataUtiles.getPhoneNumber());
+		String password=FakerDataUtiles.getPassword();
+		registerAccountPage.enterTextInPasswordField(password);
+		registerAccountPage.enterTextInConfirmPasswordField(password);
+		
+		registerAccountPage.clickOnPrivacyPolicyButton();
+		logger.info("Click on Privacy Policy Button");
+		accountSuccessPage=registerAccountPage.clickOnContinueButton();
+		logger.info("Click on Continue Button");
+		
+		Assert.assertTrue(accountSuccessPage.isAccountSuccessBreadCrumbDisplayed());
+		logger.info("Verify AccountSuccessBreadCrumb Displayed or not");
+		Assert.assertEquals(accountSuccessPage.retriveAccountSuccessMessage(),Constant.REGISTRATION_SUCCESS_MESSAGE);
+		logger.info("Verify Account Success Message");	
+		
+	}
+	catch(Exception e)
+	{
+		
+		logger.error("Test failed------------");
+		logger.debug("Debug logs----------");
+	}
+	  logger.info("****Finished TC-003: Verify RegisterFunctinality with valid Data*****");
+	}
 }
 

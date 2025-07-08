@@ -12,12 +12,12 @@ import org.testng.Assert;
 import org.testng.annotations.*;
 
 public class LoginDataDrivenTest  extends BaseTest{
-	@Parameters("browser")
+	@Parameters({"browser","os"})
 	@BeforeMethod
-	public void openApplication(String browser)
+	public void openApplication(String browser,String os)
 	{
 		
-		driver=setup("chrome");
+		driver=setup(browser,os);
 		homePage=new HomePage(driver);
 		homePage.clickOnMyAccountLink();
 		logger.info("Click On MyAccountLink");

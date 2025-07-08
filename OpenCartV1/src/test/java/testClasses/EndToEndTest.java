@@ -13,12 +13,12 @@ import utilities.CommonUtiles;
 import utilities.Constant;
 
 public class EndToEndTest extends BaseTest {
-	@Parameters("browser")
+	@Parameters({"browser","os"})
 	@BeforeMethod
-	public void openApplication(String browser)
+	public void openApplication(String browser,String os)
 	{
 		
-		driver=setup("chrome");
+		driver=setup(browser,os);
 		homePage=new HomePage(driver);
 		homePage.clickOnMyAccountLink();
 		logger.info("Click on MyAccountLink");
