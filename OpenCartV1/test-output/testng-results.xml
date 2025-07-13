@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-08T11:06:04 PDT" name="Suite" finished-at="2025-07-08T11:06:30 PDT" duration-ms="25763">
+  <suite started-at="2025-07-11T00:11:02 PDT" name="Parallel Tesing suit" finished-at="2025-07-11T00:11:27 PDT" duration-ms="24166">
     <groups>
     </groups>
-    <test started-at="2025-07-08T11:06:04 PDT" name="Test" finished-at="2025-07-08T11:06:30 PDT" duration-ms="25763">
+    <test started-at="2025-07-11T00:11:02 PDT" name="Test" finished-at="2025-07-11T00:11:27 PDT" duration-ms="24166">
       <class name="testClasses.RegisterAccountTest">
-        <test-method is-config="true" signature="openApplication(java.lang.String,java.lang.String)[pri:0, instance:testClasses.RegisterAccountTest@2cae1042]" started-at="2025-07-08T11:06:05 PDT" name="openApplication" finished-at="2025-07-08T11:06:12 PDT" duration-ms="7210" status="PASS">
+        <test-method is-config="true" signature="openApplication(java.lang.String,java.lang.String)[pri:0, instance:testClasses.RegisterAccountTest@2b5825fa]" started-at="2025-07-11T00:11:03 PDT" name="openApplication" finished-at="2025-07-11T00:11:09 PDT" duration-ms="6158" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,15 +23,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApplication -->
-        <test-method signature="verifyRegisteringAccountWithManetoryFields()[pri:1, instance:testClasses.RegisterAccountTest@2cae1042]" started-at="2025-07-08T11:06:12 PDT" name="verifyRegisteringAccountWithManetoryFields" description="TC-001: Verify RegistreAccount with only manetory fields" finished-at="2025-07-08T11:06:15 PDT" duration-ms="2552" status="PASS">
+        <test-method signature="verifyRegisteringAccountWithManetoryFields()[pri:1, instance:testClasses.RegisterAccountTest@2b5825fa]" started-at="2025-07-11T00:11:09 PDT" name="verifyRegisteringAccountWithManetoryFields" description="TC-001: Verify RegistreAccount with only manetory fields" finished-at="2025-07-11T00:11:12 PDT" duration-ms="2608" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisteringAccountWithManetoryFields -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testClasses.RegisterAccountTest@2cae1042]" started-at="2025-07-08T11:06:15 PDT" name="closeBrowser" finished-at="2025-07-08T11:06:15 PDT" duration-ms="467" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testClasses.RegisterAccountTest@2b5825fa]" started-at="2025-07-11T00:11:12 PDT" name="closeBrowser" finished-at="2025-07-11T00:11:12 PDT" duration-ms="441" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="openApplication(java.lang.String,java.lang.String)[pri:0, instance:testClasses.RegisterAccountTest@2cae1042]" started-at="2025-07-08T11:06:15 PDT" name="openApplication" finished-at="2025-07-08T11:06:19 PDT" duration-ms="3525" status="PASS">
+        <test-method is-config="true" signature="openApplication(java.lang.String,java.lang.String)[pri:0, instance:testClasses.RegisterAccountTest@2b5825fa]" started-at="2025-07-11T00:11:12 PDT" name="openApplication" finished-at="2025-07-11T00:11:16 PDT" duration-ms="3823" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -47,15 +47,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApplication -->
-        <test-method signature="verifyRegisterAccountByProvidingallFields()[pri:2, instance:testClasses.RegisterAccountTest@2cae1042]" started-at="2025-07-08T11:06:19 PDT" name="verifyRegisterAccountByProvidingallFields" description="TC-002:Verify RegistreAccount By providing all Fields" finished-at="2025-07-08T11:06:21 PDT" duration-ms="2387" status="PASS">
+        <test-method signature="verifyRegisterAccountByProvidingallFields()[pri:2, instance:testClasses.RegisterAccountTest@2b5825fa]" started-at="2025-07-11T00:11:16 PDT" name="verifyRegisterAccountByProvidingallFields" description="TC-002:Verify RegistreAccount By providing all Fields" finished-at="2025-07-11T00:11:18 PDT" duration-ms="2479" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisterAccountByProvidingallFields -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testClasses.RegisterAccountTest@2cae1042]" started-at="2025-07-08T11:06:21 PDT" name="closeBrowser" finished-at="2025-07-08T11:06:22 PDT" duration-ms="411" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testClasses.RegisterAccountTest@2b5825fa]" started-at="2025-07-11T00:11:18 PDT" name="closeBrowser" finished-at="2025-07-11T00:11:19 PDT" duration-ms="360" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="openApplication(java.lang.String,java.lang.String)[pri:0, instance:testClasses.RegisterAccountTest@2cae1042]" started-at="2025-07-08T11:06:22 PDT" name="openApplication" finished-at="2025-07-08T11:06:26 PDT" duration-ms="4221" status="PASS">
+        <test-method is-config="true" signature="openApplication(java.lang.String,java.lang.String)[pri:0, instance:testClasses.RegisterAccountTest@2b5825fa]" started-at="2025-07-11T00:11:19 PDT" name="openApplication" finished-at="2025-07-11T00:11:23 PDT" duration-ms="3942" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -71,15 +71,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApplication -->
-        <test-method signature="verifyRegisterAccountWithValidData()[pri:3, instance:testClasses.RegisterAccountTest@2cae1042]" started-at="2025-07-08T11:06:26 PDT" name="verifyRegisterAccountWithValidData" description="TC-003: Verify RegisterFunctinality with valid Data" finished-at="2025-07-08T11:06:29 PDT" duration-ms="3465" status="PASS">
+        <test-method signature="verifyRegisterAccountWithValidData()[pri:3, instance:testClasses.RegisterAccountTest@2b5825fa]" started-at="2025-07-11T00:11:23 PDT" name="verifyRegisterAccountWithValidData" description="TC-003: Verify RegisterFunctinality with valid Data" finished-at="2025-07-11T00:11:26 PDT" duration-ms="3407" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisterAccountWithValidData -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testClasses.RegisterAccountTest@2cae1042]" started-at="2025-07-08T11:06:29 PDT" name="closeBrowser" finished-at="2025-07-08T11:06:30 PDT" duration-ms="413" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testClasses.RegisterAccountTest@2b5825fa]" started-at="2025-07-11T00:11:26 PDT" name="closeBrowser" finished-at="2025-07-11T00:11:27 PDT" duration-ms="376" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- testClasses.RegisterAccountTest -->
     </test> <!-- Test -->
-  </suite> <!-- Suite -->
+  </suite> <!-- Parallel Tesing suit -->
 </testng-results>

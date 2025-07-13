@@ -1,0 +1,56 @@
+08:39:26.520 [main] INFO  testClasses.RegisterAccountTest - Click on MyAccountLink
+08:39:27.782 [main] INFO  testClasses.RegisterAccountTest - Clcik on RegisterLink
+08:39:27.798 [main] INFO  testClasses.RegisterAccountTest - Enter User Credentials
+08:39:29.010 [main] INFO  testClasses.RegisterAccountTest - Click on Privacy Policy Button
+08:39:30.099 [main] INFO  testClasses.RegisterAccountTest - Click on Continue Button
+08:39:30.225 [main] INFO  testClasses.RegisterAccountTest - Verify AccountSuccessBreadCrumb Displayed or not
+08:39:30.275 [main] INFO  testClasses.RegisterAccountTest - Verify Account Success Message
+08:39:31.190 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 138.0.3351.77 (resolved driver for Edge 138)
+08:39:31.261 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\SAI\.cache\selenium\msedgedriver\win64\138.0.3351.77\msedgedriver.exe
+08:39:36.760 [main] INFO  testClasses.RegisterAccountTest - Click on MyAccountLink
+08:39:37.592 [main] INFO  testClasses.RegisterAccountTest - Clcik on RegisterLink
+08:39:37.603 [main] INFO  testClasses.RegisterAccountTest - Enter User Credentials
+08:39:38.934 [main] INFO  testClasses.RegisterAccountTest - Click on Privacy Policy Button
+08:39:40.246 [main] INFO  testClasses.RegisterAccountTest - Click on Continue Button
+08:39:40.336 [main] INFO  testClasses.RegisterAccountTest - Verify AccountSuccessBreadCrumb Displayed or not
+08:39:40.393 [main] INFO  testClasses.RegisterAccountTest - Verify Account Success Message
+10:54:26.013 [main] INFO  testClasses.RegisterAccountTest - Click on MyAccountLink
+10:54:26.716 [main] INFO  testClasses.RegisterAccountTest - Clcik on RegisterLink
+10:54:26.728 [main] INFO  testClasses.RegisterAccountTest - Enter User Credentials
+10:54:27.976 [main] INFO  testClasses.RegisterAccountTest - Click on Privacy Policy Button
+10:54:28.893 [main] INFO  testClasses.RegisterAccountTest - Click on Continue Button
+10:54:29.011 [main] INFO  testClasses.RegisterAccountTest - Verify AccountSuccessBreadCrumb Displayed or not
+10:54:29.108 [main] INFO  testClasses.RegisterAccountTest - Verify Account Success Message
+10:54:32.532 [main] INFO  testClasses.RegisterAccountTest - Click on MyAccountLink
+10:54:33.187 [main] INFO  testClasses.RegisterAccountTest - Clcik on RegisterLink
+10:54:33.188 [main] INFO  testClasses.RegisterAccountTest - Enter User Credentials
+10:54:34.537 [main] INFO  testClasses.RegisterAccountTest - Click on Privacy Policy Button
+10:54:35.491 [main] INFO  testClasses.RegisterAccountTest - Click on Continue Button
+10:54:35.574 [main] INFO  testClasses.RegisterAccountTest - Verify AccountSuccessBreadCrumb Displayed or not
+10:54:35.626 [main] INFO  testClasses.RegisterAccountTest - Verify Account Success Message
+11:06:04.516 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\SAI\git\openCartV1\OpenCartV1\master.xml
+
+11:06:12.222 [main] INFO  testClasses.RegisterAccountTest - Click on MyAccountLink
+11:06:12.826 [main] INFO  testClasses.RegisterAccountTest - Clcik on RegisterLink
+11:06:12.853 [main] INFO  testClasses.RegisterAccountTest - Enter User Credentials
+11:06:14.201 [main] INFO  testClasses.RegisterAccountTest - Click on Privacy Policy Button
+11:06:15.209 [main] INFO  testClasses.RegisterAccountTest - Click on Continue Button
+11:06:15.324 [main] INFO  testClasses.RegisterAccountTest - Verify AccountSuccessBreadCrumb Displayed or not
+11:06:15.381 [main] INFO  testClasses.RegisterAccountTest - Verify Account Success Message
+11:06:18.763 [main] INFO  testClasses.RegisterAccountTest - Click on MyAccountLink
+11:06:19.400 [main] INFO  testClasses.RegisterAccountTest - Clcik on RegisterLink
+11:06:19.403 [main] INFO  testClasses.RegisterAccountTest - Enter User Credentials
+11:06:20.754 [main] INFO  testClasses.RegisterAccountTest - Click on Privacy Policy Button
+11:06:21.639 [main] INFO  testClasses.RegisterAccountTest - Click on Continue Button
+11:06:21.731 [main] INFO  testClasses.RegisterAccountTest - Verify AccountSuccessBreadCrumb Displayed or not
+11:06:21.786 [main] INFO  testClasses.RegisterAccountTest - Verify Account Success Message
+11:06:25.750 [main] INFO  testClasses.RegisterAccountTest - Click on MyAccountLink
+11:06:26.425 [main] INFO  testClasses.RegisterAccountTest - Clcik on RegisterLink
+11:06:26.436 [main] INFO  testClasses.RegisterAccountTest - ****Started TC-003: Verify RegisterFunctinality with valid Data*****
+11:06:26.436 [main] INFO  testClasses.RegisterAccountTest - Insert all information 
+11:06:28.722 [main] INFO  testClasses.RegisterAccountTest - Click on Privacy Policy Button
+11:06:29.751 [main] INFO  testClasses.RegisterAccountTest - Click on Continue Button
+11:06:29.836 [main] INFO  testClasses.RegisterAccountTest - Verify AccountSuccessBreadCrumb Displayed or not
+11:06:29.890 [main] INFO  testClasses.RegisterAccountTest - Verify Account Success Message
+11:06:29.890 [main] INFO  testClasses.RegisterAccountTest - ****Finished TC-003: Verify RegisterFunctinality with valid Data*****

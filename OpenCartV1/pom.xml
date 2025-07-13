@@ -98,6 +98,10 @@
           <suiteXmlFiles>
 						<suiteXmlFile>master.xml</suiteXmlFile>
 					</suiteXmlFiles>
+					<systemPropertyVariables>
+				    <browser>chrome</browser>
+				    <os>os</os>
+					</systemPropertyVariables>
           </configuration>
         </plugin>
         
