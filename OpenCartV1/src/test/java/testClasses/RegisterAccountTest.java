@@ -121,5 +121,27 @@ catch(Exception e)
 	}
 	  logger.info("****Finished TC-003: Verify RegisterFunctinality with valid Data*****");
 	}
+@Test(priority=4,description="TC-004: Verify RegisterFunctinality with Proper Notification Message")
+public void verifyProperNotificationMessageAreDisplayedForAllManetoryField()
+{
+	logger.info("****Started TC-004: Verify RegisterFunctinality with ProperNotifiacation Message*****");
+	try{
+		   logger.info("Click on ContinueButton without filup anythings");
+		    registerAccountPage.clickOnContinueButton();
+		    logger.info("Verify Error Message For each and Every Field");
+		    Assert.assertEquals(registerAccountPage.retriveFirstNameErrorMessage(),Constant.FTNERRORMESSAGE);
+		    Assert.assertEquals(registerAccountPage.retriveLastNameErrorMessage(), Constant.LTNERRORMESSAGE);
+		    Assert.assertEquals(registerAccountPage.retriveEmailErrorMessage(),Constant.EMLERRORMESSAGE);
+		    Assert.assertEquals(registerAccountPage.retriveTelePhoneErrorMessage(), Constant.TELPHONEERRORMESSAGE);
+		    Assert.assertEquals(registerAccountPage.retrivePasswordErrorMessage(), Constant.PWDERRORMESSAGE);
+		    Assert.assertEquals(registerAccountPage.retrivePrivcyPolicyWarningMessage(), Constant.PRIVCYPOLICYWARNING);
+		
+	}
+	catch(Exception e)
+	{
+		logger.error("Test failed------------");
+		logger.debug("Debug logs----------");
+	};
+}
 }
 

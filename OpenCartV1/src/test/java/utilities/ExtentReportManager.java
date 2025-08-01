@@ -2,6 +2,7 @@ package utilities;
 
 import java.awt.Desktop;
 import java.io.File;
+import java.io.FileWriter;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
@@ -73,6 +74,18 @@ public class ExtentReportManager  implements ITestListener{
 		
 		test.log(Status.FAIL, result.getName()+    "got failed");
 		test.log(Status.INFO,result.getThrowable().getMessage());
+		
+		String className=result.getTestClass().getName();
+		String testName=result.getTestClass().getTestName();
+		try (FileWriter writer=new FileWriter(System.getProperty("user.dir")+"\\track\\failedTests.txt",true))
+		{
+			
+			writer.write("Failed Test Case Tracking"+ "  "+className+">>>>>>>>>>"+" "+testName+"\n");
+		}
+		catch(Exception e)
+		{
+			e.printStackTrace();
+		}
 		
 		try
 		{

@@ -1,0 +1,54 @@
+04:13:27.023 [main] INFO  testClasses.RegisterAccountTest - Click on MyAccountLink
+04:13:27.767 [main] INFO  testClasses.RegisterAccountTest - Clcik on RegisterLink
+04:13:27.770 [main] INFO  testClasses.RegisterAccountTest - Enter User Credentials
+04:13:29.109 [main] INFO  testClasses.RegisterAccountTest - Click on Privacy Policy Button
+04:13:30.082 [main] INFO  testClasses.RegisterAccountTest - Click on Continue Button
+04:13:30.169 [main] INFO  testClasses.RegisterAccountTest - Verify AccountSuccessBreadCrumb Displayed or not
+04:13:30.225 [main] INFO  testClasses.RegisterAccountTest - Verify Account Success Message
+04:13:34.424 [main] INFO  testClasses.RegisterAccountTest - Click on MyAccountLink
+04:13:35.460 [main] INFO  testClasses.RegisterAccountTest - Clcik on RegisterLink
+04:13:35.462 [main] INFO  testClasses.RegisterAccountTest - ****Started TC-003: Verify RegisterFunctinality with valid Data*****
+04:13:35.462 [main] INFO  testClasses.RegisterAccountTest - Insert all information 
+04:13:38.073 [main] INFO  testClasses.RegisterAccountTest - Click on Privacy Policy Button
+04:13:39.126 [main] INFO  testClasses.RegisterAccountTest - Click on Continue Button
+04:13:39.226 [main] INFO  testClasses.RegisterAccountTest - Verify AccountSuccessBreadCrumb Displayed or not
+04:13:39.281 [main] INFO  testClasses.RegisterAccountTest - Verify Account Success Message
+04:13:39.281 [main] INFO  testClasses.RegisterAccountTest - ****Finished TC-003: Verify RegisterFunctinality with valid Data*****
+04:14:52.634 [main] INFO  testClasses.RegisterAccountTest - Click on MyAccountLink
+04:14:53.322 [main] INFO  testClasses.RegisterAccountTest - Clcik on RegisterLink
+04:14:53.352 [main] INFO  testClasses.RegisterAccountTest - Enter User Credentials
+04:14:54.550 [main] INFO  testClasses.RegisterAccountTest - Click on Privacy Policy Button
+04:14:55.585 [main] INFO  testClasses.RegisterAccountTest - Click on Continue Button
+04:14:55.685 [main] INFO  testClasses.RegisterAccountTest - Verify AccountSuccessBreadCrumb Displayed or not
+04:14:59.403 [main] INFO  testClasses.RegisterAccountTest - Click on MyAccountLink
+04:15:00.409 [main] INFO  testClasses.RegisterAccountTest - Clcik on RegisterLink
+04:15:00.410 [main] INFO  testClasses.RegisterAccountTest - Enter User Credentials
+04:15:01.849 [main] INFO  testClasses.RegisterAccountTest - Click on Privacy Policy Button
+04:15:06.805 [main] INFO  testClasses.RegisterAccountTest - Click on Continue Button
+04:15:06.906 [main] INFO  testClasses.RegisterAccountTest - Verify AccountSuccessBreadCrumb Displayed or not
+04:15:12.566 [main] INFO  testClasses.RegisterAccountTest - Click on MyAccountLink
+04:15:13.852 [main] INFO  testClasses.RegisterAccountTest - Clcik on RegisterLink
+04:15:13.855 [main] INFO  testClasses.RegisterAccountTest - ****Started TC-003: Verify RegisterFunctinality with valid Data*****
+04:15:13.855 [main] INFO  testClasses.RegisterAccountTest - Insert all information 
+04:15:15.834 [main] INFO  testClasses.RegisterAccountTest - Click on Privacy Policy Button
+04:15:16.898 [main] INFO  testClasses.RegisterAccountTest - Click on Continue Button
+04:15:16.977 [main] INFO  testClasses.RegisterAccountTest - Verify AccountSuccessBreadCrumb Displayed or not
+04:21:38.019 [main] INFO  testClasses.RegisterAccountTest - Click on MyAccountLink
+04:21:38.856 [main] INFO  testClasses.RegisterAccountTest - Clcik on RegisterLink
+04:21:38.869 [main] INFO  testClasses.RegisterAccountTest - Enter User Credentials
+04:21:40.054 [main] INFO  testClasses.RegisterAccountTest - Click on Privacy Policy Button
+04:21:41.032 [main] INFO  testClasses.RegisterAccountTest - Click on Continue Button
+04:21:41.167 [main] INFO  testClasses.RegisterAccountTest - Verify AccountSuccessBreadCrumb Displayed or not
+04:21:44.869 [main] INFO  testClasses.RegisterAccountTest - Click on MyAccountLink
+04:21:45.512 [main] INFO  testClasses.RegisterAccountTest - Clcik on RegisterLink
+04:21:45.514 [main] INFO  testClasses.RegisterAccountTest - Enter User Credentials
+04:21:46.824 [main] INFO  testClasses.RegisterAccountTest - Click on Privacy Policy Button
+04:21:47.756 [main] INFO  testClasses.RegisterAccountTest - Click on Continue Button
+04:21:47.888 [main] INFO  testClasses.RegisterAccountTest - Verify AccountSuccessBreadCrumb Displayed or not
+04:21:51.823 [main] INFO  testClasses.RegisterAccountTest - Click on MyAccountLink
+04:21:52.700 [main] INFO  testClasses.RegisterAccountTest - Clcik on RegisterLink
+04:21:52.704 [main] INFO  testClasses.RegisterAccountTest - ****Started TC-003: Verify RegisterFunctinality with valid Data*****
+04:21:52.705 [main] INFO  testClasses.RegisterAccountTest - Insert all information 
+04:21:54.734 [main] INFO  testClasses.RegisterAccountTest - Click on Privacy Policy Button
+04:21:55.706 [main] INFO  testClasses.RegisterAccountTest - Click on Continue Button
+04:21:55.783 [main] INFO  testClasses.RegisterAccountTest - Verify AccountSuccessBreadCrumb Displayed or not

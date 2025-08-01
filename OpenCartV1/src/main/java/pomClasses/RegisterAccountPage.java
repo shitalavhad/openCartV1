@@ -36,6 +36,54 @@ public class RegisterAccountPage  extends PageBase{
   @FindBy(xpath="//label[normalize-space()='Yes']")
   private WebElement btnnewsLetterYes;
   
+  @FindBy(xpath="//input[@id='input-firstname']/following-sibling::div")
+  private WebElement ftnErrorMessage;
+  
+  @FindBy(xpath="//input[@id='input-lastname']/following-sibling::div")
+  private WebElement ltnErrorMessage;
+  
+  @FindBy(xpath="//input[@id='input-email']/following-sibling::div")
+  private WebElement emlErrorMessage;
+  
+  @FindBy(xpath="//input[@id='input-telephone']/following-sibling::div")
+  private WebElement telePhoneErroeMessage;
+  
+  @FindBy(xpath="//input[@id='input-password']/following-sibling::div")
+  private WebElement pwdErroeMessage;
+  
+  @FindBy(xpath="(//ul[@class='breadcrumb']/following-sibling::div)[1]")
+  private WebElement privcyPolicyWaringMessage;
+  
+  public String retrivePrivcyPolicyWarningMessage()
+  {
+	  return privcyPolicyWaringMessage.getText();
+  }
+  
+  public String retrivePasswordErrorMessage()
+  {
+	  return pwdErroeMessage.getText();
+  }
+  
+  public String retriveTelePhoneErrorMessage()
+  {
+	  return telePhoneErroeMessage.getText();
+  }
+  
+  public String retriveEmailErrorMessage()
+  {
+	  return emlErrorMessage.getText();
+  }
+  
+  public String retriveLastNameErrorMessage()
+  {
+	  return ltnErrorMessage.getText();
+  }
+  
+  public String retriveFirstNameErrorMessage()
+  {
+	  return ftnErrorMessage.getText();
+  }
+  
   public void clickOnNewsLetterYesButton()
   {
 	 btnnewsLetterYes.click(); 

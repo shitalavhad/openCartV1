@@ -1,41 +1,19 @@
-01:30:20.767 [main] INFO  testClasses.RegisterAccountTest - Verify Account Success Message
-01:30:21.023 [main] INFO  testClasses.RegisterAccountTest - ****Finished TC-003: Verify RegisterFunctinality with valid Data*****
-01:35:47.419 [main] INFO  testClasses.RegisterAccountTest - Click on MyAccountLink
-01:35:48.551 [main] INFO  testClasses.RegisterAccountTest - Clcik on RegisterLink
-01:35:48.567 [main] INFO  testClasses.RegisterAccountTest - Enter User Credentials
-01:35:49.797 [main] INFO  testClasses.RegisterAccountTest - Click on Privacy Policy Button
-01:35:50.956 [main] INFO  testClasses.RegisterAccountTest - Click on Continue Button
-01:35:51.087 [main] INFO  testClasses.RegisterAccountTest - Verify AccountSuccessBreadCrumb Displayed or not
-01:35:51.140 [main] INFO  testClasses.RegisterAccountTest - Verify Account Success Message
-01:35:51.302 [AsyncHttpClient-1-4] WARN  org.asynchttpclient.netty.handler.WebSocketHandler - onError
-java.net.SocketException: Connection reset
-	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401) ~[?:?]
-	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434) ~[?:?]
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-01:35:58.513 [main] INFO  testClasses.RegisterAccountTest - Click on MyAccountLink
-01:35:59.810 [main] INFO  testClasses.RegisterAccountTest - Clcik on RegisterLink
-01:35:59.812 [main] INFO  testClasses.RegisterAccountTest - Enter User Credentials
-01:36:01.311 [main] INFO  testClasses.RegisterAccountTest - Click on Privacy Policy Button
-01:36:02.345 [main] INFO  testClasses.RegisterAccountTest - Click on Continue Button
-01:36:02.440 [main] INFO  testClasses.RegisterAccountTest - Verify AccountSuccessBreadCrumb Displayed or not
-01:36:02.497 [main] INFO  testClasses.RegisterAccountTest - Verify Account Success Message
-01:36:07.503 [main] INFO  testClasses.RegisterAccountTest - Click on MyAccountLink
-01:36:08.699 [main] INFO  testClasses.RegisterAccountTest - Clcik on RegisterLink
-01:36:08.702 [main] INFO  testClasses.RegisterAccountTest - ****Started TC-003: Verify RegisterFunctinality with valid Data*****
-01:36:08.702 [main] INFO  testClasses.RegisterAccountTest - Insert all information 
-01:36:11.180 [main] INFO  testClasses.RegisterAccountTest - Click on Privacy Policy Button
-01:36:12.385 [main] INFO  testClasses.RegisterAccountTest - Click on Continue Button
-01:36:12.469 [main] INFO  testClasses.RegisterAccountTest - Verify AccountSuccessBreadCrumb Displayed or not
-01:36:12.528 [main] INFO  testClasses.RegisterAccountTest - Verify Account Success Message
-01:36:12.528 [main] INFO  testClasses.RegisterAccountTest - ****Finished TC-003: Verify RegisterFunctinality with valid Data*****
+04:34:34.085 [main] INFO  testClasses.RegisterAccountTest - Click on MyAccountLink
+04:34:34.683 [main] INFO  testClasses.RegisterAccountTest - Clcik on RegisterLink
+04:34:34.695 [main] INFO  testClasses.RegisterAccountTest - Enter User Credentials
+04:34:35.874 [main] INFO  testClasses.RegisterAccountTest - Click on Privacy Policy Button
+04:34:36.921 [main] INFO  testClasses.RegisterAccountTest - Click on Continue Button
+04:34:37.042 [main] INFO  testClasses.RegisterAccountTest - Verify AccountSuccessBreadCrumb Displayed or not
+04:34:43.036 [main] INFO  testClasses.RegisterAccountTest - Click on MyAccountLink
+04:34:44.195 [main] INFO  testClasses.RegisterAccountTest - Clcik on RegisterLink
+04:34:44.198 [main] INFO  testClasses.RegisterAccountTest - Enter User Credentials
+04:34:45.519 [main] INFO  testClasses.RegisterAccountTest - Click on Privacy Policy Button
+04:34:46.624 [main] INFO  testClasses.RegisterAccountTest - Click on Continue Button
+04:34:46.707 [main] INFO  testClasses.RegisterAccountTest - Verify AccountSuccessBreadCrumb Displayed or not
+04:34:50.387 [main] INFO  testClasses.RegisterAccountTest - Click on MyAccountLink
+04:34:51.190 [main] INFO  testClasses.RegisterAccountTest - Clcik on RegisterLink
+04:34:51.201 [main] INFO  testClasses.RegisterAccountTest - ****Started TC-003: Verify RegisterFunctinality with valid Data*****
+04:34:51.201 [main] INFO  testClasses.RegisterAccountTest - Insert all information 
+04:34:53.390 [main] INFO  testClasses.RegisterAccountTest - Click on Privacy Policy Button
+04:34:54.546 [main] INFO  testClasses.RegisterAccountTest - Click on Continue Button
+04:34:54.663 [main] INFO  testClasses.RegisterAccountTest - Verify AccountSuccessBreadCrumb Displayed or not
